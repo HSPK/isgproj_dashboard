@@ -7,7 +7,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # There is NO WARRANTY, to the extent permitted by law.
  
 
-# Make data base, printed on Thu Jun 02 20:08:53 2022
+# Make data base, printed on Fri Jun 03 15:05:42 2022
 
 # Variables
 
@@ -32,8 +32,7 @@ HOMEDRIVE = C:
 # automatic
 ^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
 # makefile
-CUR 
-DIR := c:/Users/way/node_modules/gentelella
+CURDIR := c:/Users/way/node_modules/gentelella
 # default
 SHELL := D:/Programs/Git/bin/sh.exe
 # environment
@@ -57,7 +56,7 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-f3dc2352-18fe-403b-afe2-d6222d659b67-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-50d7ae37-866f-4003-a9fe-44bb3fa53aac-sock
 # environment
 VSCODE_CWD = D:\Programs\VSCode
 # environment
@@ -81,7 +80,7 @@ ELECTRON_RUN_AS_NODE = 1
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_16188_KJWLTLXWQZXRUJQR
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_12440_STKPSFSFPHHDEXDH
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -147,7 +146,8 @@ PROCESSOR_ARCHITEW6432 = AMD64
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
 # environment
-OS = Windows_NT
+OS = Windows_N 
+T
 # environment
 VSCODE_IPC_HOOK = \\.\pipe\b095f18014262fc1c418086a740f8750-1.64.2-main-sock
 # environment
@@ -195,11 +195,10 @@ LANG = C
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-VSCODE_PID = 16188
+VSCODE_PID = 12440
 # environment
 USERDOMAIN_ROAMINGPROFILE = LAPTOP-WAY
-# va 
-riable set hash-table stats:
+# variable set hash-table stats:
 # Load=93/1024=9%, Rehash=0, Collisions=12/107=11%
 
 # Pattern-specific Variable Values
@@ -211,7 +210,7 @@ riable set hash-table stats:
 # C:\ProgramData\DockerDesktop\version-bin: could not be stat'd.
 # D:\Programs\nodejs\ (key D:/Programs/nodejs/, mtime 1646319894): 13 files, no impossibilities.
 # C:\WINDOWS\System32\WindowsPowerShell\v1.0\ (key C:/WINDOWS/System32/WindowsPowerShell/v1.0/, mtime 1645159749): 32 files, no impossibilities.
-# . (key c:/Users/way/node_modules/gentelella, mtime 1654171732): 15 files, no impossibilities.
+# . (key c:/Users/way/node_modules/gentelella, mtime 1654174915): 16 files, no impossibilities.
 # C:\Program Files (x86)\HP\IdrsOCR_15.2.10.1114\ (key C:/Program Files (x86)/HP/IdrsOCR_15.2.10.1114/, mtime 1651806275): 88 files, no impossibilities.
 # C:\WINDOWS\System32\OpenSSH\: could not be stat'd.
 # D:\MinGW\bin (key D:/MinGW/bin, mtime 1645117672): 61 files, no impossibilities.
@@ -225,11 +224,10 @@ riable set hash-table stats:
 # C:\WINDOWS\System32\Wbem (key C:/WINDOWS/System32/Wbem, mtime 1652453710): 172 files, no impossibilities.
 # D:\Programs\CMake\bin (key D:/Programs/CMake/bin, mtime 1645117796): 7 files, no impossibilities.
 # C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1649594533): 8 files, no impossibilities.
-# C:\Users\way\AppData\Local\Mi 
-crosoft\WindowsApps (key C:/Users/way/AppData/Local/Microsoft/WindowsApps, mtime 1653729712): 25 files, no impossibilities.
+# C:\Users\way\AppData\Local\Microsoft\WindowsApps (key C:/Users/way/AppData/Local/Microsoft/WindowsApps, mtime 1653729712): 25 files, no impossibilities.
 # C:\WINDOWS\system32 (key C:/WINDOWS/system32, mtime 1653272073): 3102 files, no impossibilities.
 
-# 3715 files, no impossibilities in 19 directories.
+# 3716 files, no impossibilities in 19 directories.
 
 # Implicit Rules
 
@@ -285,15 +283,15 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 7 (6) / strings = 3678 / storage = 55867 B / avg = 15 B
+# strcache buffers: 7 (6) / strings = 3679 / storage = 55872 B / avg = 15 B
 # current buf: size = 8174 B / used = 6874 B / count = 451 / avg = 15 B
-# other used: total = 47693 B / count = 3227 / avg = 14 B
-# other free: total = 51 B / max = 13 B / min = 5 B / avg = 8 B
+# other used: total = 47698 B / count = 3228 / avg = 14 B
+# other free: total = 46 B / max = 13 B / min = 5 B / avg = 7 B
 
-# strcache performance: lookups = 3741 / hit rate = 1%
+# strcache performance: lookups = 3742 / hit rate = 1%
 # hash-table stats:
-# Load=3678/8192=45%, Rehash=0, Collisions=1377/3741=37%
-# Finished Make data base on Thu Jun 02 20:08:53 2022
+# Load=3679/8192=45%, Rehash=0, Collisions=1378/3742=37%
+# Finished Make data base on Fri Jun 03 15:05:42 2022
 
  
 make.exe: *** No rule to make target 'all'.  Stop.
